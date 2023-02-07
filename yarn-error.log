@@ -1,0 +1,107 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add React-dropzone
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Users\HP\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\msys64\mingw64\bin;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Git\cmd;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\HP\AppData\Local\Programs\Python\Python310\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Azure Data Studio\bin;C:\Users\HP\AppData\Local\atom\bin;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\AppData\Roaming\npm;C:\Users\HP\AppData\Roaming\Composer\vendor\bin;C:\Users\HP\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/React-dropzone: Not found
+      at Request.params.callback [as _callback] (C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (C:\Users\HP\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "admin_dashboard",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "http://dashboard.graduate-essay-helpers.com/",
+    "dependencies": {
+      "@ashvin27/react-datatable": "^1.5.3",
+      "@emotion/react": "^11.9.3",
+      "@emotion/styled": "^11.9.3",
+      "@heroicons/react": "^1.0.6",
+      "@mui/icons-material": "^5.8.4",
+      "@mui/material": "^5.9.2",
+      "@tailwindcss/forms": "^0.5.3",
+      "@testing-library/jest-dom": "^5.16.4",
+      "@testing-library/react": "^13.3.0",
+      "@testing-library/user-event": "^13.5.0",
+      "ag-grid-community": "^28.1.0",
+      "ag-grid-react": "^28.1.0",
+      "antd": "^4.22.1",
+      "autoprefixer": "^9.8.6",
+      "axios": "^0.27.2",
+      "bootstrap": "^5.2.0",
+      "camelize": "^1.0.0",
+      "chart.js": "^2.7.3",
+      "classnames": "^2.2.6",
+      "cross-env": "^5.2.0",
+      "dateformat": "^3.0.3",
+      "flux": "^4.0.3",
+      "gh-pages": "^4.0.0",
+      "lodash.find": "^4.6.0",
+      "postcss": "^8.4.16",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-flexy-table": "^1.8.10",
+      "react-ga": "^2.5.6",
+      "react-quill": "^1.3.3",
+      "react-router-dom": "^5.0.0",
+      "react-scripts": "^5.0.1",
+      "react-scroll-to-bottom": "^4.1.2",
+      "react-table": "^7.8.0",
+      "reactstrap": "^6.0.0",
+      "shards-react": "^1.0.0",
+      "shortid": "^2.2.14",
+      "socket.io-client": "^4.1.3",
+      "tailwindcss": "^3.1.8",
+      "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+      "extends": [
+        "react-app",
+        "react-app/jest"
+      ]
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
